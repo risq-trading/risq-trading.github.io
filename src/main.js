@@ -1,6 +1,18 @@
 const e = React.createElement;
 
+const ReferralCodes = {'26pfz': "Since you've been referred by @WolfOfCovid19, you get 50% off your buy-in!"}
+
 const Main = () => {
+
+  let referralString = null;
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  if (urlParams.has('referralCode')) {
+    const code = urlParams.get('referralCode')
+    referralString = ReferralCodes[code];
+  }
+
+
   return (
     <div
       style={{
@@ -36,6 +48,11 @@ const Main = () => {
           <strong>Enter your email for a chance at an invite.</strong>
         </p>
       </div>
+      {referralString && <div style={{flex: 1, textAlign: 'center', width: '350px'}}>
+        <p>
+          {referralString}
+        </p>
+      </div>}
     </div>
   );
 };

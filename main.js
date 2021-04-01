@@ -14,70 +14,81 @@ var Main = function Main() {
 
   return React.createElement(
     'div',
-    {
-      style: {
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-        width: '100%',
-        flexDirection: 'column'
-      } },
+    null,
     React.createElement(
       'div',
       {
         style: {
-          flex: 1,
-          textAlign: 'center',
-          background: 'linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%)',
-          WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent'
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          width: '100%',
+          flexDirection: 'column'
         } },
       React.createElement(
-        'h4',
-        null,
-        'Risq'
-      )
-    ),
-    React.createElement(
-      'div',
-      { style: { flex: 1, textAlign: 'center', fontWeight: 'bold' } },
-      React.createElement(
-        'h2',
-        { style: { fontWeight: 'bold', letterSpacing: '-0.04em' } },
-        'Fantasy finance  bracket'
-      )
-    ),
-    React.createElement(
-      'div',
-      { style: { flex: 1, textAlign: 'center' } },
-      React.createElement(
-        'a',
-        { style: { color: '#C200FB' }, href: 'how.html' },
-        'how does it work?'
-      )
-    ),
-    React.createElement(
-      'div',
-      { style: { flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '30px', letterSpacing: '-0.02em' } },
-      React.createElement(
-        'p',
-        null,
-        'We\'re working hard to open up to everyone, but anyone can sign up for Risq with an invite.',
-        ' ',
+        'div',
+        {
+          style: {
+            textAlign: 'center',
+            flex: 1,
+            background: 'linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%)',
+            WebkitMaskImage: 'linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+            marginBottom: 20,
+            width: 80
+          } },
         React.createElement(
-          'strong',
-          null,
-          'Enter your email for a chance at an invite.'
+          'h4',
+          { style: { display: 'inline', marginBottom: 100 } },
+          React.createElement(
+            'span',
+            null,
+            'Risq'
+          )
         )
-      )
-    ),
-    referralString && React.createElement(
-      'div',
-      { style: { flex: 1, textAlign: 'center', width: '60%' } },
+      ),
       React.createElement(
-        'p',
-        null,
-        referralString
+        'div',
+        { style: { flex: 1, textAlign: 'center', fontWeight: 'bold' } },
+        React.createElement(
+          'h2',
+          { style: { fontWeight: 'bold', letterSpacing: '-0.04em' } },
+          'Fantasy finance  bracket'
+        )
+      ),
+      React.createElement(
+        'div',
+        { style: { flex: 1, textAlign: 'center' } },
+        React.createElement(
+          'a',
+          { style: { color: '#C200FB' }, href: 'how.html' },
+          'how does it work?'
+        )
+      ),
+      React.createElement(
+        'div',
+        { style: { flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '30px', letterSpacing: '-0.02em' } },
+        React.createElement(
+          'p',
+          null,
+          'We\'re working hard to open up to everyone, but anyone can sign up for Risq with an invite.',
+          ' ',
+          React.createElement(
+            'strong',
+            null,
+            'Enter your email for a chance at an invite.'
+          )
+        )
+      ),
+      referralString && React.createElement(
+        'div',
+        { style: { flex: 1, textAlign: 'center', width: '60%' } },
+        React.createElement(
+          'p',
+          null,
+          referralString
+        )
       )
     )
   );

@@ -14,6 +14,8 @@ const Main = () => {
 
 
   return (
+    <div>
+   
     <div
       style={{
         display: 'flex',
@@ -22,16 +24,19 @@ const Main = () => {
         width: '100%',
         flexDirection: 'column',
       }}>
-      <div
+         <div
         style={{
-          flex: 1,
           textAlign: 'center',
+          flex: 1,
           background:
             'linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%)',
+          WebkitMaskImage: 'linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%)',
           WebkitBackgroundClip: 'text',
-          WebkitTextFillColor: 'transparent',
+          WebkitTextFillColor: 'transparent',     
+          marginBottom: 20,
+          width: 80,
         }}>
-        <h4>Risq</h4>
+        <h4 style={{display: 'inline', marginBottom: 100}}><span>Risq</span></h4>
       </div>
       <div style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>
         <h2 style={{fontWeight: 'bold', letterSpacing:'-0.04em'}}>Fantasy finance  bracket</h2>
@@ -53,6 +58,7 @@ const Main = () => {
           {referralString}
         </p>
       </div>}
+    </div>
     </div>
   );
 };

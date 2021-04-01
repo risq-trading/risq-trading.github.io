@@ -25,7 +25,7 @@ const Main = () => {
         <h1>fantasy finance bracket</h1>
       </div>
       <div style={{flex: 1, textAlign: 'center'}}>
-        <a style={{color: '#C200FB'}} href="google.com">
+        <a style={{color: '#C200FB'}} href="how.html">
           how does it work?
         </a>
       </div>

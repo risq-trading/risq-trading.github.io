@@ -41,7 +41,7 @@ var Main = function Main() {
       { style: { flex: 1, textAlign: 'center' } },
       React.createElement(
         'a',
-        { style: { color: '#C200FB' }, href: 'google.com' },
+        { style: { color: '#C200FB' }, href: 'how.html' },
         'how does it work?'
       )
     ),

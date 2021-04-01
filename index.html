@@ -13,6 +13,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
 
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-W0DJ33ZGTQ"></script>
   <script>
@@ -32,12 +35,19 @@
     }
 
     .center {
-      margin: 0;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+    @media (min-width: 750px) {
+      .center {
+        margin: 0;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
     }
 
     .footer {
@@ -53,14 +63,14 @@
 </head>
 
 <body>
-  <div class='center'>
+  <div class='container center'>
     <div id='main'>
     </div>
     <br>
     <div style='text-align: center;width:100%;'>
       <a class="typeform-share button" href="https://form.typeform.com/to/xv2ibJnT?typeform-medium=embed-snippet"
         data-mode="popup"
-        style="width:150px;display:inline-block;text-decoration:none;background: linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%);color:white;cursor:pointer;font-family:Karla;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
+        style="font-size:2rem;width:400px;display:inline-block;text-decoration:none;background: linear-gradient(80.39deg, #C200FB -1.98%, #FF6F59 95.31%);color:white;cursor:pointer;font-family:Karla;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:25px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;"
         data-size="100" data-hide-headers="true" data-hide-footer="true" target="_blank">Enter waitlist </a>
     </div>
   </div>

@@ -41,7 +41,7 @@ const Main = () => {
           how does it work?
         </a>
       </div>
-      <div style={{flex: 1, textAlign: 'center', width: '350px'}}>
+      <div style={{flex: 1, textAlign: 'center', width: '50%', fontSize: '18px', marginTop: '30px'}}>
         <p>
           We're working hard to open up to everyone, but anyone can sign up for
           Risq with an invite.{' '}

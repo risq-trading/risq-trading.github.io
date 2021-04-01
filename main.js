@@ -58,7 +58,7 @@ var Main = function Main() {
     ),
     React.createElement(
       'div',
-      { style: { flex: 1, textAlign: 'center', width: '350px' } },
+      { style: { flex: 1, textAlign: 'center', width: '50%', fontSize: '18px', marginTop: '30px' } },
       React.createElement(
         'p',
         null,

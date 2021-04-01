@@ -33,18 +33,18 @@ var Main = function Main() {
           WebkitTextFillColor: 'transparent'
         } },
       React.createElement(
-        'h2',
+        'h4',
         null,
         'Risq'
       )
     ),
     React.createElement(
       'div',
-      { style: { flex: 1, textAlign: 'center' } },
+      { style: { flex: 1, textAlign: 'center', fontWeight: 'bold' } },
       React.createElement(
-        'h1',
-        null,
-        'fantasy finance bracket'
+        'h2',
+        { style: { fontWeight: 'bold', letterSpacing: '-0.04em' } },
+        'Fantasy finance  bracket'
       )
     ),
     React.createElement(
@@ -58,7 +58,7 @@ var Main = function Main() {
     ),
     React.createElement(
       'div',
-      { style: { flex: 1, textAlign: 'center', width: '50%', fontSize: '18px', marginTop: '30px' } },
+      { style: { flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '30px', letterSpacing: '-0.02em' } },
       React.createElement(
         'p',
         null,
@@ -73,7 +73,7 @@ var Main = function Main() {
     ),
     referralString && React.createElement(
       'div',
-      { style: { flex: 1, textAlign: 'center', width: '350px' } },
+      { style: { flex: 1, textAlign: 'center', width: '60%' } },
       React.createElement(
         'p',
         null,

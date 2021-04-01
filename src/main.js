@@ -31,24 +31,24 @@ const Main = () => {
           WebkitBackgroundClip: 'text',
           WebkitTextFillColor: 'transparent',
         }}>
-        <h2>Risq</h2>
+        <h4>Risq</h4>
       </div>
-      <div style={{flex: 1, textAlign: 'center'}}>
-        <h1>fantasy finance bracket</h1>
+      <div style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>
+        <h2 style={{fontWeight: 'bold', letterSpacing:'-0.04em'}}>Fantasy finance  bracket</h2>
       </div>
       <div style={{flex: 1, textAlign: 'center'}}>
         <a style={{color: '#C200FB'}} href="how.html">
           how does it work?
         </a>
       </div>
-      <div style={{flex: 1, textAlign: 'center', width: '50%', fontSize: '18px', marginTop: '30px'}}>
+      <div style={{flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '30px', letterSpacing:'-0.02em'}}>
         <p>
           We're working hard to open up to everyone, but anyone can sign up for
           Risq with an invite.{' '}
           <strong>Enter your email for a chance at an invite.</strong>
         </p>
       </div>
-      {referralString && <div style={{flex: 1, textAlign: 'center', width: '350px'}}>
+      {referralString && <div style={{flex: 1, textAlign: 'center', width: '60%'}}>
         <p>
           {referralString}
         </p>

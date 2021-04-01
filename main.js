@@ -54,12 +54,30 @@ var Main = function Main() {
         React.createElement(
           'h2',
           { style: { fontWeight: 'bold', letterSpacing: '-0.04em' } },
-          'Fantasy finance  bracket'
+          'Fantasy Finance  Bracket'
         )
       ),
       React.createElement(
         'div',
-        { style: { flex: 1, textAlign: 'center' } },
+        { style: { flex: 1, textAlign: 'center', fontSize: '20px' } },
+        React.createElement(
+          'span',
+          null,
+          'The  ',
+          React.createElement(
+            'strong',
+            null,
+            ' top 50% of players profit.'
+          ),
+          ' First place ',
+          React.createElement(
+            'strong',
+            null,
+            ' triples their buy-in'
+          ),
+          '.'
+        ),
+        React.createElement('br', null),
         React.createElement(
           'a',
           { style: { color: '#C200FB' }, href: 'how.html' },
@@ -83,7 +101,7 @@ var Main = function Main() {
       ),
       referralString && React.createElement(
         'div',
-        { style: { flex: 1, textAlign: 'center', width: '60%' } },
+        { style: { flex: 1, textAlign: 'center', width: '60%', fontWeight: 'bold' } },
         React.createElement(
           'p',
           null,

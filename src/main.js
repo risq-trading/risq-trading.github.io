@@ -39,10 +39,14 @@ const Main = () => {
         <h4 style={{display: 'inline', marginBottom: 100}}><span>Risq</span></h4>
       </div>
       <div style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>
-        <h2 style={{fontWeight: 'bold', letterSpacing:'-0.04em'}}>Fantasy finance  bracket</h2>
+        <h2 style={{fontWeight: 'bold', letterSpacing:'-0.04em'}}>Fantasy Finance  Bracket</h2>
       </div>
-      <div style={{flex: 1, textAlign: 'center'}}>
-        <a style={{color: '#C200FB'}} href="how.html">
+      <div style={{flex: 1, textAlign: 'center', fontSize: '20px'}}>
+        <span>
+          The  <strong> top 50% of players profit.</strong> First place <strong> triples their buy-in</strong>.
+        </span>
+        <br></br>
+        <a style={{color: '#C200FB',}} href="how.html">
           how does it work?
         </a>
       </div>
@@ -53,7 +57,7 @@ const Main = () => {
           <strong>Enter your email for a chance at an invite.</strong>
         </p>
       </div>
-      {referralString && <div style={{flex: 1, textAlign: 'center', width: '60%'}}>
+      {referralString && <div style={{flex: 1, textAlign: 'center', width: '60%', fontWeight: 'bold'}}>
         <p>
           {referralString}
         </p>

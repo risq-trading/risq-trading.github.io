@@ -50,7 +50,7 @@ const Main = () => {
           how does it work?
         </a>
       </div>
-      <div style={{flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '30px', letterSpacing:'-0.02em'}}>
+      <div style={{flex: 1, textAlign: 'center', width: '60%', fontSize: '18px', marginTop: '25px', letterSpacing:'-0.02em'}}>
         <p>
           We're working hard to open up to everyone, but anyone can sign up for
           Risq with an invite.{' '}

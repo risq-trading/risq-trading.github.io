@@ -36,14 +36,20 @@
     }
 
     .center {
-      margin: 0;
-      margin-top: 50px;
-      margin-bottom: 100px;
-      position: absolute;
-      top: 40%;
-      left: 50%;
-      -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      margin-top: 20%;
+      padding-bottom: 50px;
+    }
+    @media (min-width: 480px) {
+      .center {
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 100px;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
     }
 
     .footer {
@@ -57,7 +63,7 @@
 
 </head>
 
-<body style="background-color: #ecf0f1">
+<body style="background-color: #ecf0f1;">
   <div class='container center'>
     <div id='main'>
     </div>

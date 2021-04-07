@@ -119,7 +119,7 @@ var Main = function Main() {
       ),
       email ? React.createElement(
         'div',
-        { style: { flex: 1, textAlign: 'center', width: '60%' } },
+        { style: { flex: 1, textAlign: 'center', justifyContent: 'center', alignItems: 'center', width: '65%', fontSize: 20 } },
         React.createElement(
           'p',
           null,
@@ -127,15 +127,22 @@ var Main = function Main() {
           React.createElement(
             'strong',
             null,
-            'If you refer a friend, you get $2.50 of in-game credit. '
+            'For each friend you refer, you reserve $2.50 of in-game credit. '
           ),
-          ' Here\'s your unique referral link: ',
+          ' Your unique referral link is: ',
           React.createElement(
             'a',
-            null,
+            { href: 'https://joinrisq.com/index.html?ref=' + email },
             'https://joinrisq.com/index.html?ref=',
             email,
-            '  '
+            ' '
+          ),
+          ' ',
+          React.createElement('br', null),
+          React.createElement(
+            'a',
+            { style: { fontSize: 14 }, href: 'terms.html' },
+            'Referral terms'
           )
         ),
         ' '

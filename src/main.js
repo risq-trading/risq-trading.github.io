@@ -79,8 +79,8 @@ const Main = () => {
         </p>
       </div>}
       
-      {email ? <div style={{flex: 1, textAlign: 'center', width: '60%'}}><p>
-          Thanks for signing up! <strong>If you refer a friend, you get $2.50 of in-game credit. </strong> Here's your unique referral link: <a>https://joinrisq.com/index.html?ref={email}  </a>
+      {email ? <div style={{flex: 1, textAlign: 'center', justifyContent: 'center', alignItems: 'center', width: '65%', fontSize: 20}}><p>
+          Thanks for signing up! <strong>For each friend you refer, you reserve $2.50 of in-game credit. </strong> Your unique referral link is: <a href={'https://joinrisq.com/index.html?ref=' + email}>https://joinrisq.com/index.html?ref={email} </a> <br></br><a style={{fontSize: 14}} href='terms.html'>Referral terms</a>
         </p> </div>: <div>
         <div style={{marginTop: 20}}></div>
         <MailchimpSignup/>
